@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&family=Allura&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #3e6e91;
+    font-family: "Allura", cursive;
+
+}
+
+.wrapper{
+    margin-top: 2%;;
+}
+
+.wrapper h2{
+    text-align: center;
+    font-size: 30px;
+    font-style: normal;
+    font-family: "Akaya Kanadaka", system-ui;
+     font-weight: 400;
+    margin-bottom: 42px;
+    margin-top: 50px;
+    
+}
+.wrapper h3{
+    font-family: "Allura", cursive;
+    font-size: 52px;
+    margin-bottom: 62px;
+    text-align: center;
+}
+.wrapper .Company{
+    text-align: center;
+    color: black;
+    font-size: 32px;
+    font-style: normal;
+    font-family: "Akaya Kanadaka", system-ui;
+     font-weight: 400;
+    
+}
+.wrapper.p .team_members{
+    color: black;
+}
+
+.team{
+    display: flex;
+    text-align: center;
+    width: auto;
+    justify-content: center;
+}
+
+.team .team_members{
+    background: white;
+    margin: 5px;
+    margin-bottom: 50px;
+    width: 250px;
+    padding: 20px;
+    line-height: 20px;
+    color: #0a0a09;
+    position: relative;
+}
+
+.team .team_members h3{
+    color: #81c644;
+    font-size: 27px;
+    margin-top: 50px;
+}
+
+.team .team_members p.role{
+    color: #281010c7;
+    font-size: 12px;
+    text-transform: uppercase;
+    margin: 12px 0;
+
+}
+.team .team_members .team_img1{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50;
+    left: 50%;
+    transform: translateX(-50%);
+}
